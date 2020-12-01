@@ -1,149 +1,454 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geographical Location vs Quality of Life</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-		crossorigin="anonymous"></script>
-	
-	<link rel="stylesheet" type="text/css" href="static/style.css">
-	<link rel="stylesheet" type="text/css" href="static/bootstrap.css">
-	
+<!DOCTYPE HTML>
+<!--
+	Landscape by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Quality of Life Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-    
-</head>
-<body>
+		<!-- Header -->
+			<header id="header">
+				<nav id="nav">
+					<ul>
+						<li><a href="#intro">Intro<span class="extra">duction</span></a></li>
+						<li><a href="#one">Quality<span class="extra"> of Life</span></a></li>
+						<li><a href="#two">Map <span class="extra"> It Out</span></a></li>
+						<li><a href="#six"><span class="extra">Income</span></a></li>
+						<li><a href="#three">Healthcare<span class="extra"> Access</span></a></li>
+						<li><a href="#four"><span class="extra"> Pollution</span></a></li>
+						<!-- <li><a href="#contact">Contact<span class="extra"> Us</span></a></li> -->
+						<li><a href="#five">Putting It<span class="extra"> Together</span></a></li>
+						<!-- <li><a href="#elements">Elements</a></li> -->
+						<li><a href="#ML">Machine<span class="extra"> Learning</span></a></li>
+					</ul>
+				</nav>
+			</header>
 
-<div class="container">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<a class="navbar-brand" href="#">Explore the Data:</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarColor02">
-		<ul class="navbar-nav mr-auto">
-		<li class="nav-item active">
-			<a class="nav-link" href="/">Home
-				<span class="sr-only">(current)</span>
-			</a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="static/Map.html">Map It Out</a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="static/Poverty.html">Poverty</a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="static/Healthcare.html">Healthcare</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="static/Pollution.html">Pollution</a>
-				</li>
-			<li class="nav-item">
-				<a class="nav-link" href="static/ML.html">Machine Learning</a>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">GitHub</a>
-					<div class="dropdown-menu">
-					<a class="dropdown-item" href="https://github.com/armywalrus/final-project/tree/main/Data%20prep">Cleaning Process</a>
-					<a class="dropdown-item" href="https://github.com/armywalrus/final-project/tree/main/Resources">Raw Data</a>
-					<a class="dropdown-item" href="https://github.com/armywalrus/final-project/tree/main/Machine%20Learning">Machine Learning</a>
-					<a class="dropdown-item" href="https://drive.google.com/file/d/1y82Y6245KyVbNH7pmrthlI_44ewQG4xj/view?usp=sharing">Presentation</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="https://github.com/armywalrus/final-project">More</a>
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Reel -->
+					<div class="reel">
+
+						<!-- Intro -->
+							<article id="intro" class="slide style1 center">
+								<img src="images/pic03.jpg" alt="" data-position="30% 50%" />
+								<div class="inner">
+									<header>
+										<h1>Quality of Life Analysis</h1>
+										<h3>How Does Geographical Location Affect Quality of Life?</h3>
+										<p>We hypothesized that we could predict where someone lives based on their quality of life factors. We wanted to find out if there was any correlation between income/poverty, quality of healthcare, and exposure to pollution.</p>
+										<!-- <BR> -->
+											<a href="https://www.linkedin.com/in/veronica-hamilton-cam-79023b61/" class="linkedin"><img src="https://media-exp1.licdn.com/dms/image/C5603AQHbdOKMu2-seg/profile-displayphoto-shrink_200_200/0/1580408832435?e=1612396800&v=beta&t=77PDaRKMihnaBFYvvaokzYc-Q67nR-QbsSWJyhPnzjA" class="avatar"></a>&nbsp&nbsp
+											<a href="https://www.linkedin.com/in/tomorrow-rose-70361671/" class="linkedin"><img src="https://media-exp1.licdn.com/dms/image/C5603AQEoiEcmvCYogA/profile-displayphoto-shrink_200_200/0/1579544275934?e=1612396800&v=beta&t=HcpzRKNvzy4SFORd38_kZZj7mn0PotdEELg19J3idoM" class="avatar"></a>&nbsp&nbsp
+											<a href="https://www.linkedin.com/in/nathan-prows/" class="linkedin"><img src="https://media-exp1.licdn.com/dms/image/C5635AQGe-yezyL9v3Q/profile-framedphoto-shrink_200_200/0/1603223722077?e=1606946400&v=beta&t=K8Ydi0ivsCkSbVY0R7jhEgzQPMcgWhFoMKFXU9Bx2BI" class="avatar"></a>&nbsp&nbsp
+											<a href="https://www.linkedin.com/in/chris-waycott-a82a147/" class="linkedin"><img src="https://media-exp1.licdn.com/dms/image/C5603AQGg0XkP2Zt4gw/profile-displayphoto-shrink_200_200/0?e=1612396800&v=beta&t=u1Hfr9cR-qlauAVg-a1v9dyKeHHojjEiNQE7Ix3qQzQ" class="avatar"></a>
+										</header>
+									<ul class="actions special">
+										<li><a href="#one" class="button next">What defines "Quality of Life"?</a></li>
+									</ul>
+									<h5>*This site is viewed best on a laptop or PC</h5>
+								</div>
+							</article>
+
+						<!-- One -->
+							<article id="one" class="slide style2 left">
+								<img src="images/pic02.jpg" alt="" data-position="center" />
+								<div class="inner">
+									<h2>3 Key Factors Define <br />
+									"Quality of Life":</h2>
+									<p>					
+										<h4>Income</h4>
+										&nbsp  &nbsp  &nbsp- Do you make enough money to afford life essentials?<BR><BR>
+										<h4>Healthcare</h4>
+										&nbsp  &nbsp  &nbsp- Do you use have access to healthcare? Do you use more preventative or emergency care?<BR><BR>
+										<h4>Pollution</h4>
+										&nbsp  &nbsp  &nbsp- Is where you live very polluted?
+									</p>
+								</div>
+							</article>
+
+						<!-- Two -->
+							<article id="two" class="slide style2 center">
+								<img src="images/pic01.jpg" alt="" data-position="left" />
+								<div class="inner">
+									<div class='tableauPlaceholder' id='viz1606786849287' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MapItOut-QualityofLifeIndicators&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MapItOut-QualityofLifeIndicators&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MapItOut-QualityofLifeIndicators&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1606786849287');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+								</div>
+							</article>
+
+						<!-- Six -->
+						<article id="six" class="slide style1 center">
+							<img src="images/pic07.jpg" alt="" data-position="center" />
+							<div class="inner">
+								<div class='tableauPlaceholder' id='viz1606793623071' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmergencyvsPreventativeCareQOLMeasures&#47;IncomePovertyStory&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EmergencyvsPreventativeCareQOLMeasures&#47;IncomePovertyStory' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmergencyvsPreventativeCareQOLMeasures&#47;IncomePovertyStory&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1606793623071');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1050px';vizElement.style.height='677px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+							</div>
+						</article>
+
+						<!-- Three -->
+							<article id="three" class="slide style2 center">
+								<img src="images/pic04.jpg" alt="" data-position="center" />
+								<div class="inner">
+									<div class='tableauPlaceholder' id='viz1606787449493' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MedicarebyState_16059282748300&#47;Story1&#47;1_rss.png' style='border: none' align='align-left' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MedicarebyState_16059282748300&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MedicarebyState_16059282748300&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1606787449493');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='600px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+								</div>
+							</article>
+
+						<!-- Four -->
+						<article id="four" class="slide style2 center">
+							<img src="images/pic05.jpg" alt="" data-position="center" />
+							<div class="inner">
+								<div class='tableauPlaceholder' id='viz1606789194601' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QualityofLife-AirPollutantAnalysis&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='QualityofLife-AirPollutantAnalysis&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QualityofLife-AirPollutantAnalysis&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1606789194601');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1100px';vizElement.style.height='677px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+							</div>
+						</article>
+
+						<!-- Five -->
+						<article id="five" class="slide style2 center">
+							<img src="images/pic06.jpg" alt="" data-position="center" />
+							<div class="inner">
+								<div class='tableauPlaceholder' id='viz1606793342269' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmergencyvsPreventativeCareQOLMeasures&#47;QOLStory&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EmergencyvsPreventativeCareQOLMeasures&#47;QOLStory' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmergencyvsPreventativeCareQOLMeasures&#47;QOLStory&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1606793342269');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='677px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>							</div>
+						</article>
+
+						<!-- Contact Us -->
+							<!-- <article id="contact" class="slide style2 with-content center">
+								<img src="images/pic01.jpg" alt="" data-position="30% 50%" />
+								<div class="inner">
+									<h2>Contact Us</h2>
+									<div class="content">
+										<form method="post" action="#">
+											<div class="fields">
+												<div class="field half"><input type="text" name="name" id="name" placeholder="Name" /></div>
+												<div class="field half"><input type="email" name="email" id="email" placeholder="Email" /></div>
+												<div class="field"><textarea name="message" id="message" placeholder="Message" rows="5"></textarea></div>
+											</div>
+											<ul class="actions special">
+												<li><input type="submit" value="Send" /></li>
+											</ul>
+										</form>
+									</div>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+									</ul>
+								</div>
+							</article> -->
+
+							<!-- ML -->
+							<article id="ML" class="slide style2 left">
+								<img src="images/pic08.jpg" alt="" data-position="center" />
+								<div class="inner">
+									<H1>Machine Learning</H1>
+									<img src="images/Linear_Regression_Model.png" alt="hist" width=500px align=left><BR><BR><BR><BR><BR>
+									<H5>In this project, we attempted to use machine learning to predict factors related to quality of life. These factors included household income, poverty rate, pollution data, and Medicare data. With the Medicare data, we focused on preventative care, such as participation in Part B, ambulatory visits, and diagnostic tests.
+										We conducted our project using a SVC models, and a linear regression model. Over the course of the project we tested various output variables and features, to see which would enable us to best predict the quality of a person's life.<BR><BR><BR><BR><BR>
+									<img src="images/Linear_Regression_Model_validation.png" alt="hist" width=500px align=right><BR><BR><BR><BR>
+										Over the course of the project we tested various output variables and features, to see which would enable us to best predict the quality of a person's life.
+										Output variables were chosen as indications of quality of life - for example, we looked at participation in Medicare Part B. 
+										We wanted to see if we could use factors such as household incomes to predict Part B participation. <BR><BR><BR><BR><BR><BR>
+									<img src="images/Linear_Regression_Model_validation_hist.png" alt="hist" width=500px align=left><BR><BR>
+										<BR><BR><BR>
+											Medicare Part B is optional, and costs a monthly premium when used. It covers preventative care, such as doctor visits and diagnostic tests. Compared to Part A, which is automatic, costs no extra money out of pocket, and is mainly for emergencies, our theory was that a higher participation in Part B would indicate a person's overall quality of life is higher, due to being able to afford it, and being able to prevent medical issues. We tried comparing various factors from our census data and our pollution data to it, to see if we could use our data to make predictions.
+									</H5>
+								</div>
+							</article>
+
+						<!-- Elements -->
+							<!-- <article id="elements" class="slide style1 with-content center">
+								<img src="images/pic04.jpg" alt="" data-position="center" />
+								<div class="inner">
+									<h2>Elements</h2>
+									<div class="content align-left">
+
+										<section>
+											<h4>Text</h4>
+											<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+											This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+											This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+											<hr />
+											<h2>Heading Level 2</h2>
+											<h3>Heading Level 3</h3>
+											<h4>Heading Level 4</h4>
+											<h5>Heading Level 5</h5>
+											<h6>Heading Level 6</h6>
+											<hr />
+											<h5>Blockquote</h5>
+											<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+											<h5>Preformatted</h5>
+											<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+  print 'Iteration ' + i;
+  deck.shuffle();
+  i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+										</section>
+
+										<section>
+											<h4>Lists</h4>
+											<div class="row">
+												<div class="6u 12u$(medium)">
+													<h5>Unordered</h5>
+													<ul>
+														<li>Dolor pulvinar etiam.</li>
+														<li>Sagittis adipiscing.</li>
+														<li>Felis enim feugiat.</li>
+													</ul>
+													<h5>Alternate</h5>
+													<ul class="alt">
+														<li>Dolor pulvinar etiam.</li>
+														<li>Sagittis adipiscing.</li>
+														<li>Felis enim feugiat.</li>
+													</ul>
+												</div>
+												<div class="6u$ 12u(medium)">
+													<h5>Ordered</h5>
+													<ol>
+														<li>Dolor pulvinar etiam.</li>
+														<li>Etiam vel felis viverra.</li>
+														<li>Felis enim feugiat.</li>
+														<li>Dolor pulvinar etiam.</li>
+														<li>Etiam vel felis lorem.</li>
+														<li>Felis enim et feugiat.</li>
+													</ol>
+													<h5>Icons</h5>
+													<ul class="icons">
+														<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+														<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+														<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+														<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													</ul>
+												</div>
+											</div>
+											<h5>Actions</h5>
+											<ul class="actions">
+												<li><a href="#" class="button primary">Default</a></li>
+												<li><a href="#" class="button">Default</a></li>
+											</ul>
+											<ul class="actions small">
+												<li><a href="#" class="button primary small">Small</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+											</ul>
+											<div class="row">
+												<div class="6u 12u$(small)">
+													<ul class="actions stacked">
+														<li><a href="#" class="button primary">Default</a></li>
+														<li><a href="#" class="button">Default</a></li>
+													</ul>
+												</div>
+												<div class="6u$ 12u$(small)">
+													<ul class="actions stacked">
+														<li><a href="#" class="button primary small">Small</a></li>
+														<li><a href="#" class="button small">Small</a></li>
+													</ul>
+												</div>
+												<div class="6u 12u$(small)">
+													<ul class="actions stacked">
+														<li><a href="#" class="button primary fit">Default</a></li>
+														<li><a href="#" class="button fit">Default</a></li>
+													</ul>
+												</div>
+												<div class="6u$ 12u$(small)">
+													<ul class="actions stacked">
+														<li><a href="#" class="button primary small fit">Small</a></li>
+														<li><a href="#" class="button small fit">Small</a></li>
+													</ul>
+												</div>
+											</div>
+										</section>
+
+										<section>
+											<h4>Table</h4>
+											<h5>Default</h5>
+											<div class="table-wrapper">
+												<table>
+													<thead>
+														<tr>
+															<th>Name</th>
+															<th>Description</th>
+															<th>Price</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>Item One</td>
+															<td>Ante turpis integer aliquet porttitor.</td>
+															<td>29.99</td>
+														</tr>
+														<tr>
+															<td>Item Two</td>
+															<td>Vis ac commodo adipiscing arcu aliquet.</td>
+															<td>19.99</td>
+														</tr>
+														<tr>
+															<td>Item Three</td>
+															<td> Morbi faucibus arcu accumsan lorem.</td>
+															<td>29.99</td>
+														</tr>
+														<tr>
+															<td>Item Four</td>
+															<td>Vitae integer tempus condimentum.</td>
+															<td>19.99</td>
+														</tr>
+														<tr>
+															<td>Item Five</td>
+															<td>Ante turpis integer aliquet porttitor.</td>
+															<td>29.99</td>
+														</tr>
+													</tbody>
+													<tfoot>
+														<tr>
+															<td colspan="2"></td>
+															<td>100.00</td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+
+											<h5>Alternate</h5>
+											<div class="table-wrapper">
+												<table class="alt">
+													<thead>
+														<tr>
+															<th>Name</th>
+															<th>Description</th>
+															<th>Price</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>Item One</td>
+															<td>Ante turpis integer aliquet porttitor.</td>
+															<td>29.99</td>
+														</tr>
+														<tr>
+															<td>Item Two</td>
+															<td>Vis ac commodo adipiscing arcu aliquet.</td>
+															<td>19.99</td>
+														</tr>
+														<tr>
+															<td>Item Three</td>
+															<td> Morbi faucibus arcu accumsan lorem.</td>
+															<td>29.99</td>
+														</tr>
+														<tr>
+															<td>Item Four</td>
+															<td>Vitae integer tempus condimentum.</td>
+															<td>19.99</td>
+														</tr>
+														<tr>
+															<td>Item Five</td>
+															<td>Ante turpis integer aliquet porttitor.</td>
+															<td>29.99</td>
+														</tr>
+													</tbody>
+													<tfoot>
+														<tr>
+															<td colspan="2"></td>
+															<td>100.00</td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+										</section>
+
+										<section>
+											<h4>Buttons</h4>
+											<ul class="actions">
+												<li><a href="#" class="button primary">Primary</a></li>
+												<li><a href="#" class="button">Default</a></li>
+											</ul>
+											<ul class="actions">
+												<li><a href="#" class="button">Default</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+											</ul>
+											<ul class="actions fit">
+												<li><a href="#" class="button primary fit">Fit</a></li>
+												<li><a href="#" class="button fit">Fit</a></li>
+											</ul>
+											<ul class="actions fit small">
+												<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+												<li><a href="#" class="button fit small">Fit + Small</a></li>
+											</ul>
+											<ul class="actions">
+												<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+												<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											</ul>
+											<ul class="actions">
+												<li><span class="button primary disabled">Disabled</span></li>
+												<li><span class="button disabled">Disabled</span></li>
+											</ul>
+										</section>
+
+										<section>
+											<h4>Form</h4>
+											<form method="post" action="#">
+												<div class="fields">
+													<div class="field half">
+														<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+													</div>
+													<div class="field half">
+														<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+													</div>
+													<div class="field">
+														<select name="demo-category" id="demo-category">
+															<option value="">- Category -</option>
+															<option value="1">Manufacturing</option>
+															<option value="1">Shipping</option>
+															<option value="1">Administration</option>
+															<option value="1">Human Resources</option>
+														</select>
+													</div>
+													<div class="field half">
+														<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+														<label for="demo-priority-low">Low</label>
+													</div>
+													<div class="field half">
+														<input type="radio" id="demo-priority-high" name="demo-priority">
+														<label for="demo-priority-high">High</label>
+													</div>
+													<div class="field half">
+														<input type="checkbox" id="demo-copy" name="demo-copy">
+														<label for="demo-copy">Email me a copy</label>
+													</div>
+													<div class="field half">
+														<input type="checkbox" id="demo-human" name="demo-human" checked>
+														<label for="demo-human">Not a robot</label>
+													</div>
+													<div class="field">
+														<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+													</div>
+												</div>
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" class="primary" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</form>
+										</section>
+
+									</div>
+								</div>
+							</article> -->
+
 					</div>
-			</li>
-		</ul>
-		</div>
-	</nav>
 
-	<div class="row">		
-		<div class="col-md-8">
-			<BR>
-			<h1>How Does Geographical Location Affect Quality of Life?</h1>
-			<BR>
-			<img src="Assets/map.jpg" width=350 align="left">
-				<h2>Project Summary:</h2>
-				<p>
-					We hypothesized that we could predict where someone lives based on their quality of life factors. We wanted to find out if there was any correlation between income/poverty, quality of healthcare, and exposure to pollution. 
-				</p>
-				<br><br><br><br>
-				<center>
-				<p class="text-info">3 Key Factors Define Quality of Life:</p>
-					<dl>
-						<dt>Income</dt>
-						<dd>- Do you make enough money to afford life essentials?</dd>
-						<dt>Healthcare Access</dt>
-						<dd>- Do you use more preventative or emergency care?</dd>
-						<dt>Pollution</dt>
-						<dd>- Is where you live very polluted?</dd>
-					</dl>
-				</center>
-		</div>
-		<div class="col-md-1"></div>
-		<div class="col-md-2">
-			<div class="row"><CENTER>
+			</div>
 
-				<h3><BR><BR> Visualizations</h3>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-				<a href="static/Map.html">
-					<figure>
-						<img src="Assets/location.png" alt="Income" width=100px>
-						<figcaption>Maps</figcaption>
-					</figure>
-				</a>
-				<BR>
-			<!-- </div> -->
-			<!-- <div class="row"><CENTER> -->
-				<a href="static/Poverty.html">
-					<figure>
-						<img src="Assets/income.png" alt="Income" width=100px>
-						<figcaption>Income</figcaption>
-					</figure>
-				</a>
-				<BR>
-			<!-- </div> -->
-			<!-- <div class="row"><CENTER> -->
-				<a href="static/Healthcare.html">
-					<figure>
-						<img src="Assets/health.png" alt="Healthcare" width=100px>
-						<figcaption>Healthcare</figcaption>
-					</figure>
-				</a>
-				<BR>
-			<!-- </div> -->
-			<!-- <div class="row"><CENTER> -->
-				<a href="static/Pollution.html">
-					<figure>
-						<img src="Assets/pollution.png" alt="Pollution" width=100px>
-						<figcaption>Pollution</figcaption>
-					</figure>
-				</a>
-				<BR>
-			<!-- </CENTER>
-			</div> -->
-			<div class="row">
-
-			</div>    
-			</div> 
-    </div>
-</div>
-
-</body>
-<footer>
-	<center>
-	<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-	</center>
-</footer>
-
+	</body>
 </html>
