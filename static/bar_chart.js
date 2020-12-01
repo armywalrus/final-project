@@ -49,12 +49,12 @@ console.log(year)
 // var year = selector.options[selector.selectedIndex].value.toLowerCase()
 
 // Load data from hours-of-tv-watched.csv
-d3.json("http://127.0.0.1:5001/census/"+year).then(function(censusData) {
-
+d3.json("https://quality-of-life-by-state.herokuapp.com/census/"+year).then(function(censusData) {
+console.log(censusData)
   // console.log(censusData.povertyrate);
-  var poverty = censusData.povertyrate
+  var poverty = censusData.PovertyRate
 
-  var name = censusData.name
+  var name = censusData.Name
 
   var poverty_array = povertyDictionary(poverty,name)
 
